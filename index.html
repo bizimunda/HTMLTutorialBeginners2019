@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <a href="#c4">Jump to Chapter 4</a>
+
+    <!-- heading shift+alt+arrow down key-->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- Paragraph -->
+
+    <p style="background-color: crimson">This is a Paragraph</p>
+    <p style="color: darkorange">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, nihil?
+    </p>
+
+    <!-- Line Break -->
+    <br />This is <br />a paragraph <br />with line breaks
+
+    <!-- pre element -->
+    <pre style="color: darkgreen">
+        My bonnie lies over the ocean.
+
+        My bonnie lies over the sea.
+
+        My Bonnie lies over the ocean.
+    </pre>
+
+    <!-- HTML Styles -->
+    <!-- <tagname style="property:value;"> -->
+
+    <!-- change fonts -->
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif">
+      This is a heading and we want to change the font
+    </h1>
+    <h1 style="font-size: 110%">
+      This is a heading and we want to change the text size
+    </h1>
+
+    <!-- Text Aligment -->
+
+    <h2 style="text-align: center">Centered Heading</h2>
+    <h2 style="text-align: right">Right Heading</h2>
+
+    <!-- Text Formatting -->
+
+    <b>This text is bold</b>
+    <br />
+    <i>This text is Italic</i>
+    <br />
+    <sub>This text is subscript</sub>
+    <br />
+    <sup>This text is superscript</sup>
+    <br />
+    <small>This is a small text</small>
+    <br />
+
+    <mark>This text is marked</mark>
+    <br />
+    <p>My favorite color is <del>blue</del> and red</p>
+    <br />
+    <p>My favorite <ins>color</ins> is red</p>
+    <br />
+    <p>This is <sub>Subscripted</sub> text</p>
+    <br />
+    <p>This is <sup>Superscripted</sup> text</p>
+
+    <!-- quotations and citations -->
+
+    <p>
+      WWF's goal is to:
+      <q> Build a future where peple live in hormoney with nature</q>
+    </p>
+
+    <blockquote>
+      For 50 year, WWF has been protecting the future of nature.
+    </blockquote>
+    <!-- Abbreviations -->
+
+    <abbr title="World health Organization">WHO</abbr> was founded in 1948
+    <br />
+    <!-- Address -->
+
+    <br />
+    <address>
+      Box 564, Dineyland <br />
+      USA
+    </address>
+
+    <!-- Bi-Directional Overrride -->
+    <bdo dir="rtl">This text will be written form right to left</bdo>
+
+    <!-- HTML Colors -->
+
+    <!-- RGB= red, green and blue
+    HEX= hexadecimel
+    HSL= hue saturation lightness
+    RGBA= Red green, blue and alpha
+    HSLA= hue saturation ligthness and alpha -->
+
+    <h1 style="color: dodgerblue">Hello world</h1>
+    <h1 style="border: 2px solid dodgerblue">Hello world</h1>
+
+    Colors Name
+    <h1 style="background-color: rgb(255, 99, 71);">Hello world</h1>
+    <h1 style="background-color: #ff6347;">Hello world</h1>
+    <h1 style="background-color: hsl(9, 100%, 64%)">Hello world</h1>
+    <h1 style="background-color: hsla(9, 100%, 64%, 0.8)">Hello world</h1>
+    <h1 style="background-color: rgba(255, 99,71, 0.8)">Hello world</h1>
+
+    <!-- HTML Links -->
+
+    <a href="https://www.google.com">Bring me to google page</a>
+    <br />
+    <a href="page1.html">Go to Page1</a>
+
+    <style>
+      a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: black;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    </style>
+
+    <!-- Images as link -->
+    <br />
+    <a href="page1.html">
+      <img
+        src="images/image1.jpg"
+        alt="red flowers"
+        style="width: 400px; height: 400px;"
+      />
+    </a>
+
+    <!-- Create a bookmark -->
+
+    <h2 id="c4">Chapter 4</h2>
+
+    <a href="page1.html#c50">Go to page 1 and Chapter 100</a>
+
+    <!-- Images -->
+    <br />
+    <img src="images/image2.jpg" alt="mountains" />
+    <br />
+    <img
+      src="images/image3.jpg"
+      alt="flower"
+      style="width: 400px"
+      ;
+      height="300px"
+    />
+
+    <img src="images/image4.jpg" alt="fish" width="400" height="300" />
+
+    <!-- Image floating -->
+    <br />
+    <br />
+    <img
+      src="images/image1.jpg"
+      alt="red flower"
+      style="float: right; width:100px; height:100px"
+    />
+    <img
+      src="images/image1.jpg"
+      alt="red flower"
+      style="float: left; width:100px; height:100px"
+    />
+    <br />
+    <br />
+
+    <style>
+      img {
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+    <img src="images/image1.jpg" alt="" />
+    <img src="images/image2.jpg" alt="" />
+
+    <h3>Div with backgroud image</h3>
+    <div style="background-image: url('images/image1.jpg');">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium,
+      doloremque? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Illum facere nihil quam accusantium distinctio a dicta, dolor ut dolores
+      eius?
+    </div>
+    <br>
+   <!-- HTML Table -->
+   <h3>HTML Table</h3>
+   <table style="border: 2px solid green">
+     <tr>
+       <th>First Name</th>
+       <th>First Last Name</th>
+       <th>Age</th>
+     </tr>
+     <tr>
+       <td>Jill</td>
+       <td>Smith</td>
+       <td>50</td>
+     </tr>
+     <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+   </table>
+
+
+   <!-- HTML List  -->
+  <h3>Unordered List</h3>
+
+  <ul style="list-style: none">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    <li>Bananas</li>
+  </ul>
+
+  <h3>Ordered List</h3>
+  <ol start="101">
+    <li>Coffee</li>
+    <li>Tea </li>
+    <li>Bananas</li>
+  </ol>
+
+  <h3>Unordered List Horizontally</h3>
+
+  <ul id="mylist">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    <li>Bananas</li>
+  </ul>
+
+  <style>
+  
+  #mylist li{
+    display: inline;
+    list-style: none;
+    color: red;
+    padding: 1rem;
+    background-color: black
+  }
+  
+  </style>
+
+ <!-- HTML Block and Inline element -->
+ <h3>HTML block</h3>
+ <div style="border: 1px solid black">
+   This is HTML Block= block-level
+ </div>
+ <div></div>
+ <br>
+ <header style="border: 1px solid black">Header</header>
+ <br>
+ <hr>
+ <br>
+ <p style="border: 1px solid black"> Para</p>
+ <br>
+ <section style="border: 1px solid black">Section</section>
+ <br>
+ <table style="border: 1px solid black"> Table</table>
+ <br>
+ <ul style="border: 1px solid black">
+<li>list item</li></ul>
+ <br>
+ <article style="border: 1px solid black"> Article</article>
+ <br>
+ <address style="border: 1px solid black">  Address</address>
+ <br>
+
+ <h3>HTML Inline </h3>
+ <span style="border: 5px solid black">Hello World</span>
+ <span style="border: 5px solid yellow">Hello World</span>
+ <span style="border: 5px solid rgb(177, 24, 24)">Hello World</span>
+
+ <a href="">anchor</a>
+ <b>Bold</b>
+ <br>
+ <i> Italic</i>
+
+ <img src="" alt="">Image
+ <strong>Strong</strong>
+ <br>
+ <textarea name="" id="" cols="30" rows="10">Text area</textarea>
+
+ <br>
+ <!-- HTML class Attribute -->
+
+ <h3>HTML Class Attribute</h3>
+
+ <div class="cities">
+   <h3>Paris</h3>
+
+ </div>
+ <br>
+ <div class="cities">
+   <h3>London</h3>
+   <h3>Amsterdam</h3>
+
+ </div>
+ <br>
+ <div class="cities">
+   <h3>Tokyo</h3>
+
+ </div>
+
+ <style>
+
+.cities{
+  background-color: orange;
+  color: blue;
+  padding: 1rem;
+  
+}
+ 
+ </style>
+
+ <h3>Class Attribute for Inline elements</h3>
+
+ <span class="inlineClass">This a span</span> 
+ <strong class="inlineClass">This is a strong</strong>
+ <i class="inlineClass">This is italic</i>
+
+ <style>
+ .inlineClass{
+   background-color: blue;
+   color: white;
+ }
+ 
+ </style>
+
+ <h1>Multiple classes for an element</h1>
+
+ <h2 class="color bg">London</h2>
+ <h2 class="color">Paris</h2>
+ <h2 class="bg">Tokyo</h2>
+
+ <style>
+ 
+ .color{
+   color: orange;
+ }
+
+ .bg{
+   background-color: blue;
+ }
+ 
+ </style>
+
+ <h3>Id Attribute</h3>
+ 
+ <h1 id="myHeader">My header with id "myHeader"</h1>
+
+ 
+ <style>
+#myHeader{
+  background-color: lightblue;
+  padding: 40px;
+  text-align: center;
+}
+ 
+ </style>
+
+ <!-- HTML Iframe -->
+
+ <h1>HTML Iframe</h1>
+
+ <iframe src="page1.html" width="300" height="200"></iframe>
+
+
+<!-- HTML JavaScript -->
+
+<p id="demo">This is a paragraph</p>
+
+<script>
+  document.getElementById("demo").innerHTML="I have changed through JS";
+  document.getElementById("demo").style.color="red";
+  document.getElementById("demo").style.backgroundColor="yellow";
+  document.getElementById("demo").style.textAlign="center";
+</script>
+
+
+<!-- Responsive Image -->
+<h3>Responsive Images</h3>
+
+<img src="images/image1.jpg" style="width: 100%; height: 100%;">
+
+<!-- <h1 style="font-size:10vw">Hello World</h1> -->
+
+<!-- Responsive Text Size -->
+
+<h3>Responsive Text Size</h3>
+
+<!-- px, vw=viewpot width -->
+<h1 style="font-size: 10vw">Viewport Width</h1>
+1vw=1% of viewport width. 
+50cm wide, 1vw is 0.5cm
+
+ <!-- HTML Forms -->
+
+ <h3>HTML Forms</h3>
+
+<input type="text" value="">
+<br>
+<br>
+<input type="button" value="My button">
+<br>
+<br>
+Male: <input type="checkbox" name="" id="">
+<br>
+Female: <input type="checkbox" name="" id="">
+<br>
+<br>
+Male: <input type="radio" name="" id="">
+Female: <input type="radio" name="" id="">
+<br>
+<br>
+<input type="submit" value="Submit">
+<br>
+<br>
+
+<select name="cars" id="cars" >
+
+  <option value="">--</option>
+  <option value="volvo">Volo</option>
+  <option value="saab">Saab</option>
+  <option value="vw">VW</option>
+
+</select>
+
+<br>
+<br>
+
+
+<select name="cars" multiple >
+
+    <option value="">--</option>
+    <option value="volvo">Volo</option>
+    <option value="saab">Saab</option>
+    <option value="vw">VW</option>
+  
+</select>
+
+<br>
+<br>
+
+<h3>Textarea</h3>
+<textarea name="" id="" cols="50" rows="10"></textarea>
+<br>
+
+<button type="button" onclick="alert('hello world1')">Click Me</button>
+
+
+<input type="hidden">
+<br>
+<input type="image">
+<br>
+month:
+<input type="month">
+<br>
+<input type="number">
+<br>
+password
+<input type="password">
+<br>
+
+<!-- types of input -->
+Date:
+<input type="date" name="" id="">
+<br>
+<input type="file" name="" id="">
+<br>
+month:
+<input type="month" name="" id="">
+<br>
+week:
+<input type="week" name="" id="">
+<br>
+Password: <input type="password" name="" id="">
+<br>
+Date: <input type="date" name="" id="">
+<br>
+Number: <input type="number" name="" id="">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<h3>Reset button</h3>
+
+<form action="">
+
+First name: 
+<input type="text" name="" id="">
+<br>
+First lastname: 
+<input type="text" name="" id="">
+<br>
+<input type="reset" value="Reset">
+
+
+</form>
+
+<br>
+<canvas id="myCanvas" width="200" height="100" style="background-color: orange"></canvas>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </body>
+</html>
